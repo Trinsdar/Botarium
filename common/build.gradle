@@ -57,7 +57,7 @@ publishing {
     // See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
     repositories {
         maven {
-            url = "https://maven.resourcefulbees.com/repository/codexadrian/"
+            url = "https://repo.repsy.io/mvn/trinsdar/gregtech-intergalactical/"
             credentials {
                 username ENV.MAVEN_USERNAME
                 password ENV.MAVEN_PASSWORD
